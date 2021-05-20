@@ -7,6 +7,10 @@
     font-family: "Hiragino Kaku Gothic ProN";
   }
   
+  p {
+  margin: 0;
+  }
+
   a {
     text-decoration: none;
   }
@@ -129,31 +133,15 @@
     font-weight: normal;
   }
 
-  @media (max-width: 1000px) {
-
-  .flex-list {
-    display: flex; 
-  }
-  .flex-list li {
+  .lessons {
+    display: flex;
     flex-wrap: wrap;
-    width: 50%;
   }
 
-  .lesson li{
-    flex: auto;
-    width: 50%;
+  .lesson {
+    width: 25%;
   }
-
-  @media (max-width: 670px) {
-    .flex-list {
-      flex-direction: column;
-    }
-    .flex-list li {
-      margin: 0 auto;
-    }
-  }
-
-  }
+  
   .lesson-icon {
     position: relative;
   }
